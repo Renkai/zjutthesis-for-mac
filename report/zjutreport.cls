@@ -126,32 +126,32 @@
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
 
-\setmainfont[Mapping=tex-text]{Times New Roman}
-\setsansfont{Arial}
-\setmonofont{Courier New}
+\setmainfont[Mapping=tex-text]{Times}
+\setsansfont{Helvetica}
+\setmonofont{Menlo}
 
-\setCJKmainfont{SimSun}
-\setCJKsansfont{SimHei}
-\setCJKmonofont{SimSun}
+\setCJKmainfont{华文宋体}
+\setCJKsansfont{Hiragino Sans GB W3}
+\setCJKmonofont{Hiragino Sans GB W3}
 \punctstyle{kaiming}
 
-\setCJKfamilyfont{SongTi}{SimSun} % 更好印刷效果可换成 Adobe Heiti Std
+\setCJKfamilyfont{SongTi}{华文宋体} 
 \DeclareRobustCommand{\songti}{\CJKfamily{SongTi}}     % 宋体
-\setCJKfamilyfont{FangSong}{FangSong}
+\setCJKfamilyfont{FangSong}{华文仿宋}
 \DeclareRobustCommand{\fangsong}{\CJKfamily{FangSong}} % 仿宋
-\setCJKfamilyfont{KaiShu}{KaiTi}
+\setCJKfamilyfont{KaiShu}{Kaiti}
 \DeclareRobustCommand{\kaiti}{\CJKfamily{KaiShu}}      % 楷体
-\setCJKfamilyfont{HeiTi}{SimHei}
+\setCJKfamilyfont{HeiTi}{Hiragino Sans GB W3}
 \DeclareRobustCommand{\heiti}{\CJKfamily{HeiTi}}       % 黑体
-\setCJKfamilyfont{LiShu}{LiSu}
+\setCJKfamilyfont{LiShu}{华文隶书}
 \DeclareRobustCommand{\lishu}{\CJKfamily{LiShu}}       % 隶书
-\setCJKfamilyfont{YouYuan}{YouYuan}
+\setCJKfamilyfont{YouYuan}{Yuanti SC Light}
 \DeclareRobustCommand{\youti}{\CJKfamily{YouYuan}}     % 幼圆
-\setCJKfamilyfont{STFangsong}{STFangsong}
+\setCJKfamilyfont{STFangsong}{华文仿宋}
 \DeclareRobustCommand{\stfangsong}{\CJKfamily{STFangsong}} % ST仿宋
-\setCJKfamilyfont{STXingkai}{STXingkai}
+\setCJKfamilyfont{STXingkai}{Xingkai SC Light}
 \DeclareRobustCommand{\stxingkai}{\CJKfamily{STXingkai}}   % ST行楷
-\setCJKfamilyfont{tnroman}{Times New Roman}
+\setCJKfamilyfont{tnroman}{Times}
 \DeclareRobustCommand{\tnroman}{\CJKfamily{tnroman}}       % Times New Roman
 
 \frenchspacing
