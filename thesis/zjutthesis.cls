@@ -135,8 +135,6 @@
 \DeclareRobustCommand{\kaiti}{\CJKfamily{KaiShu}}      % 楷体
 \setCJKfamilyfont{HeiTi}{Hiragino Sans GB W3}
 \DeclareRobustCommand{\heiti}{\CJKfamily{HeiTi}}       % 黑体
-\setCJKfamilyfont{LiShu}{华文隶书}
-\DeclareRobustCommand{\lishu}{\CJKfamily{LiShu}}       % 隶书
 \setCJKfamilyfont{YouYuan}{Yuanti SC Light}
 \DeclareRobustCommand{\youti}{\CJKfamily{YouYuan}}     % 幼圆
 \setCJKfamilyfont{STFangsong}{华文仿宋}
